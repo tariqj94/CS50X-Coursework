@@ -13,7 +13,8 @@ int main(int argc, string argv[])
 
 //We must ensure that the user entered the right number of arguments
 
-#define ARGS 2
+//#define ARGS 2
+int ARGS = 2;
     if (argc != ARGS)
     {
         printf("I'm sorry, you entered more or less than 2 arguments!  PEACE \n");
